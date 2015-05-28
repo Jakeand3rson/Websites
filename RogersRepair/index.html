@@ -7,7 +7,14 @@
   <title>Rogers Repair</title>
   <meta name="description" content="Rogers Repair">
   <meta name="author" content="SitePoint">
-
+  <link rel="shortcut icon" href="http://i.imgur.com/Rmp0Qkwh.png">
+  <meta property="og:site_name" content="Rogers Repair"/>
+  <meta property="og:title" content="Rogers Repair" />
+  <meta property="og:description" content="Home repair without the headache" />
+  <meta property="og:type" content="Rogers Repair:photo">
+  <meta property="og:url" content="http://www.rogers-repair.com"/>
+  <meta property="og:image" content="http://i.imgur.com/OQgIpau.png"/>
+  <meta name="google-site-verification" content="YHwLdgoh4ZqojN2zP9BEikKRxN1n2lS_aP8lyiOE6FY" />
   <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/6.1.4/basscss.min.css" rel="stylesheet">
   <!-- JQuery link -->
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -54,12 +61,30 @@
     .foot li {
       display: inline;
     }
+    .mobileShow { 
+      display: none;
+    }
+    .mobileHide { 
+      display: inline;
+    }
+   /* Smartphone Portrait and Landscape */
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px){ 
+    .mobileShow { 
+      display: block;
+    }
+    .mobileHide { 
+      display: none;}
+    }
   </style>
+
 </head>
 <header class="center px3 py4 bg-gray bg-cover bg-center">
   <img src="http://i.imgur.com/Rmp0Qkwh.png" alt="rogers repair logo">
   <p class="h4 upper black">Put away the tylenol. Your headache is over</p>
-  <a href="mailto:Roger@rogers-repair.com" class="h3 button mb4">Get a Bid</a>
+  <a href="mailto:Roger@rogers-repair.com" class="h3 button mb4 mobileHide">Get a Bid</a>
+  <a href="mailto:Roger@rogers-repair.com" class="h3 button mb4 mobileShow fit">Get a Bid</a>
+  <a href="tel:360-471-7643" class="h3 button mb4 mobileShow fit">Give me a call</a>
+  <a href="sms:360-471-7643" class="h3 button mb4 mobileShow fit">Shoot me a text</a>
 </header>
 <body>
   <!-- This is the summary of services -->
@@ -68,24 +93,27 @@
       <div class="sm-col sm-col-4 px2">
         <h3 class="h2 upper title">Home Care 101</h3>
         <h4>$250</h4>
-        <p>In this 2 hour instructional session, Roger explains the how-to of maintaining your home. After a detailed walk through and around your new home, you will learn how to maintain items in your home.<br>Topics regularly covered include..</p>
+        <p>In this 2 hour instructional session, the perfect housewarming gift for new homeowners, Roger explains the what-to and how-to of maintaining your home. After a detailed walk through and around your new home, you will learn what and how to maintain items in your home.</p>
         <ul>
           <li>When and how to replace the caulking around tubs, toilets and sinks</li>
           <li>Tips to paint like a pro</li>
-          <li>How to tackle a minor drywall repair</li>
-          <li>How to fix squeaky doors and <br>stuck windows</li>
-          <li>What products to use and when it’s time to call in a professional</li>
+          <li>Tackle minor drywall repair</li>
+          <li>Deal with squeaky doors <br>and stuck windows</li>
+          <li>Recommended Products <br>from the Pros</li>
+          <li>Must have tools list <br>from basics to advanced</li>
+          <li>Address any specific questions you have about your home</li>
+          <li>How to determine when it’s a DIY project or when it's time to call in a professional</li>
         </ul>
       </div>
       <div class="sm-col sm-col-4 px2">
         <h2 class="h2 mb0 upper title">DIY Consulting</h2>
         <h3>Priced per Hour</h3>
-        <p>Roger can help guide you in the process of both minor and major remodels, helping develop a step-by-step guide line for the project.<br>Common Consultation requests include..</p>
+        <p>Roger guides you in the process of both minor and major remodels, helping develop a step-by-step guide line for the project along with a materials list.  <br>Consultation includes</p>
         <ul>
-          <li>Measuring and developing a <br>materials list</li>
-          <li>Explaining the ins and outs of planning</li>
-          <li>Demoing techniques gathered from over 40 years of trial and error</li>
-          <li>Installation and completion of more challenging tasks.</li>
+          <li>Determining scope of project and discovering your skill sets</li>
+          <li>Develop step by step procedures</li>
+          <li>Develop materials list <br>to complete the project</li>
+          <li>Assistance as needed for more challenging aspects of the project</li>
         </ul>
       </div>
       <div class="sm-col sm-col-4 px2">
@@ -99,9 +127,9 @@
   <!-- This is the BIO section -->
   <section class="container px2 py3" id="bio">
     <h1 class="center upper title">About Roger</h1>
-    <p>Roger Anderson has a natural talent for troubleshooting along with an innate ability to tackle all areas of home repair, maintenance and remodeling. As the son of a machinist and carpenter, and the grandson of a blacksmith and farmer, trouble shooting and repairs come second nature to him. With a degree in electronics, he worked in the computer industry for 20 years. After talking with amny of his elderly friends and hearing how often they had been taen advantage of by unscrupulous contractors, he left the computer world and began Roger’s Repair to be the change in the industry.</p>
+    <p>Roger Anderson has a God-given talent for troubleshooting along with an innate ability to tackle any area of home repair, maintenance and remodeling. As the son of a machinist and carpenter, and the grandson of a blacksmith and a farmer, trouble shooting and repairing come second nature to him. With a degree in electronics, he worked in the computer industry for 20 years. After talking with many of his elderly friends and hearing how often they had been taken advantage of by unscrupulous contractors, he left the computer world and began Roger’s Repair to be the change in the industry.</p> 
 
-    <p>As a licensed, bonded and insured General Contractor in the State of Washington, Roger has worked for home owners of all ages, property rehabbers, property managers and commercial retailers. He has a long list of clients who have offered to give testimonies of his work and character. So please ask if you’re interested.</p>
+    <p>As a licensed, bonded and insured General Contractor and Handyman in the State of Washington, Roger works for home owners, property investors, property managers, in-state and out-of-state landlords and commercial retailers. He has a long list of clients who have offered to give testimonies of his work and character, so please ask if you’re interested, so please don't hesitate to ask. We encourage all our new clients to visit the <a target="_blank" href="https://secure.lni.wa.gov/verify/Detail.aspx?UBI=602739298&LIC=ROGERRL931M3&SAW=">Labor & Industry</a> site to verify license, bond and insurance, and also for any past complaints no matter who you hire.</p>
   </section>
   <!-- End BIO -->
   <!-- Start Gallery -->
